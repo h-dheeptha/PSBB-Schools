@@ -1,0 +1,351 @@
+<html>
+
+<head>
+    <title>
+        PSBB Siruseri
+    </title>
+    <meta name="viewpart" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fruktur&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+</head>
+
+<body>
+
+
+
+    <nav class="navbar-inverse my_nav_bar">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#home">
+                PSBB Siruseri
+            </a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="#campus">Campus life</a></li>
+                <li><a href="#achievment">Achievments</a></li>
+                <li><a href="#new">What's new</a></li>
+                <li><a href="#alumni">Alumni</a></li>
+                <li><a href="#contact">Contact us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+
+    <section id="right">
+    <span><h3>Home</h3></span>
+        <span><button onclick="show0()" id="show0" class="btn btn-success">Show/Hide</button></span>
+    <section id="home">
+        <div class="announcement">
+            <marquee width="100%" direction="left" height="20px" id="marqueeStyle" onmouseover="this.stop();" onmouseout="this.start();">
+                **Feel free to ask any queries at support.psbbschools@gmail.com**
+            </marquee>
+        </div>
+        <iframe id="video" width="100%" height="600" src="https://www.youtube.com/embed/61gQwODCT4A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+        
+
+
+
+
+    <span><h3>Campus Life</h3></span>
+    <span><input onclick="show()" id="show" type="button" value="Show/Hide"></span>
+    <section id="campus">
+        <div class="container">
+            <div class="page-header">
+                <h2 class="text-capitalize">Campus life</h2>
+                <div class="row">
+                    <div class="travel_mainDiv">
+                        <img class="img-responsive" src="ground.PNG">
+                        <h4 class="text-capitalize"><kbd>Sports ground</kbd></h4>
+                        <hr>
+                        <h5 class="text-success text-left text-capitalize">
+                            used for outdoor sports
+                        </h5>
+                        <p class="text-muted text-left">
+                            There are three sports grounds in the school. Here, we can play Basketball, Volley Ball, Football, Cricket etc.
+                        </p>
+                    </div>
+                
+
+                    <div class="travel_mainDiv">
+                        <img class="img-responsive" src="lab.PNG">
+                        <h4 class="text-capitalize"><kbd>Lab</kbd></h4>
+                        <h5 class="text-success text-left text-capitalize">
+                            Used for experiments
+                        </h5>
+                        <p class="text-muted text-left">
+                            Chemistry lab, physics lab, computer lab, science lab, etc.
+                        </p>
+                    </div>
+                    <hr widtth="100%">
+                    <div class="travel_mainDiv">
+                        <img class="img-responsive" src="educomp.PNG">
+                        <h4 class="text-capitalize"><kbd>Learning With Videos</kbd></h4>
+                        <h5 class="text-success text-left text-capitalize">
+                            A fun way of learning with educomp
+                        </h5>
+                        <p class="text-muted text-left">
+                            With Educomp students can learn with specially made videos to enhance learning
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <span><h3>School Achievments</h3></span>
+    <span><input onclick="show2()" id="show2" type="button" value="Show/Hide"></span>
+    <section id="achievment">
+        <div class="page-header" id="achievments">
+            <h2 class="text-capitalize">
+                school achievments
+            </h2>
+        </div>
+        <div class="bg-primary movie_head text-capitalize" data-toggle="collapse" data-target="#the-ickabog">
+            The ickabog illustration competition
+            <i class="fa fa-sort-desc"></i>
+        </div>
+        <div id="the-ickabog" class="collapse">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievmentsID">
+                <img src="ickabog2.PNG" class="img-responsive img-thumbnail">
+            </div>
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+                <h5 class="text-success text-left text-capitalize">
+                    Shortlisted for 'The Ickabog Illustration competition' conducted by Hachette children's group
+                </h5>
+                <p>
+                    H. Dheeptha of Class 4-D1 of PSBB Siruseri has the proud privilege of her entry being shortlisted as one of the top 340 entries (out of 18000+ submissions) in the International Illustration Competition held by the renowned author J K Rowling (of Harry Potter fame) for her new children’s book, ‘The Ickabog’.
+                </p>
+            </div>
+        </div>
+        <div class="bg-primary movie_head text-capitalize" data-toggle="collapse" data-target="#t-nagar">
+            Bhajan Competition organised by Bhakthaswara Bhajan Mandali
+            <i class="fa fa-sort-desc"></i>
+        </div>
+        <div id="t-nagar" class="collapse">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <img src="t-nagar.PNG" class="img-respinse img-thumbnail">
+            </div>
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+                <h5 class="text-success text-left text-capitalize">
+                    Students from PSBB T.Nagar participated in the Bhajan Competition organised by Bhakthaswara Bhajan Mandali.
+                </h5>
+                <p>
+                    Students from PSBB T.Nagar participated in the Bhajan Competition organised by Bhakthaswara Bhajan Mandali. They won the 4th place.
+                </p>
+            </div>
+        </div>
+    </section>
+    </section>
+    <section id="banner">
+        <span><img src="data:image/png;base64,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">
+        </span>
+        <span>
+        <img src="psbb.png">
+        </span>
+        
+    </section>
+
+    <section id="left"> 
+    <span><h3>What's New</h3></span>
+    <span><input onclick="show3()" id="show3" type="button" value="Show/Hide"></span>
+    <section id="new">
+        <h2 class="text-capitalize">
+        What's New
+        </h2>
+        <ul class="list-group">
+            <li class="list-group-item list-group-item-success col-lg-12 col-md-12 col-sm-12 col-xs-12 environment_li">
+            <h4>Sanskrit available as 2nd Language for class 4 to 10</h4>
+                <img src="sanskrit.jpg" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12">
+                Recently, Sanskrit has been made available for class 4 to class 10 in the school. It is very easy to learn based on my experience with this symbolic language. It is told that marvelous epics like 'The Ramayana' was written in Sanskrit. The school encourages epics like these, too. However, you should learn it as soon as possible after the teachers teach you as it is quite easy but yet it is important.   
+                </p>
+            </li>
+        </ul>
+        <ul class="list-group">
+            <li class="list-group-item list-group-item-success col-lg-12 col-md-12 col-sm-12 col-xs-12 environment_li">
+            <h4>PSBB Vidyashakti</h4>
+                <img src="PSBB-Vidyashakti.png" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12">
+                PSBB group of schools present to you the all-new YouTube channel Vidyashakti - created to honour our beloved founder and dean, DR.(Mrs.)Y. G. Parthasarathy, loved and respected as YGP Ma'am. Students from all branches participated in this program and it includes various programs conducted by the schools on lockdown 2020. The main programme consists of many episodes which were live-streamed @6p.m every week-day. Do check out the channel and hit a subscribe and turn on notifications so that you won't miss out any awesome programs.
+                </p>
+            </li>
+        </ul>
+    </section>
+
+    
+    <span><h3>Alumni</h3></span>
+    <span><input onclick="show4()" id="show4" type="button" value="Show/Hide"></span>
+    <section id="alumni">
+    <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="alumni">
+        <h2 class="text-capitalize">
+        Alumni
+        </h2>
+        </div>
+        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        These are our Alumni:
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" id="alumilist" data-toggle="modal" data-target="#school_alumni1">
+        <img src="ar-rahman.PNG" class="img-responsive">
+            <hr>
+            <p class="text-primary">A. R. Rahman</p>
+        </div>
+        <div class="modal fade" id="school_alumni1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">A. R. Rahman</h4>
+                </div>
+                
+                
+                <div class="modal-body">
+                <img src="ar-rahman.PNG" class="img-responsive img_modal">
+                    <p class="p_modal">A. S. Dileep Kumar, born on 6 January 1967), known professionally as A. R. Rahman, is an Indian composer, singer and music producer who works predominantly in Tamil and Hindi movies. In 2010, the Indian government awarded him the Padma Bhushan, the nation's third-highest civilian award. He is a proud alumni of PSBB.
+                    <br>
+                    <a href="https://en.wikipedia.org/wiki/A._R._Rahman" target="_blank"><b>To Know More</b></a>
+                    </p>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div id="footer"></div>
+        
+        
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" id="alumilist" data-toggle="modal" data-target="#school_alumni2">
+        <img src="ashwin.PNG" class="img-responsive img_modal">
+            <hr>
+            <p class="text-primary">Ravichandran Ashwin</p>
+        </div>
+        <div class="modal fade" id="school_alumni2">
+        <div class="modal-dialog">
+            <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Ravichandran Ashwin</h4>
+                </div>
+                
+                
+                <div class="modal-body">
+                <img src="ashwin.PNG" class="img-responsive img_modal">
+                    <p class="p_modal">Ravichandran Ashwin, born 17 September 1986 is an Indian international cricketer. An all-rounder who bats right-handed and bowls right-arm off break, Ashwin plays for Tamil Nadu in domestic cricket and Delhi Capitals in the Indian Premier League. He is the fastest Indian bowler (also in some records the joint fastest in the world) to reach the 50-, 100-, 150-, 200-, 250-, 300- and 350-wicket mark in Test cricket in terms of number of innings. In 2016, he became the third Indian to win the ICC Cricketer of the Year award.
+                    <br>
+                    <a href="https://en.wikipedia.org/wiki/Ravichandran_Ashwin" target="_blank"><b>To Know More</b></a>
+                    </p>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div id="footer"></div>
+        
+        
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" id="alumilist" data-toggle="modal" data-target="#school_alumni3">
+        <img src="sundar-pichai.PNG" class="img-responsive img_modal">
+            <hr>
+            <p class="text-primary">Sundar Pichai</p>
+        </div>
+        <div class="modal fade" id="school_alumni3">
+        <div class="modal-dialog">
+            <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Sundar Pichai</h4>
+                </div>
+                
+                
+                <div class="modal-body">
+                <img src="sundar-pichai.PNG" class="img-responsive img_modal">
+                    <p class="p_modal">Pichai Sundararajan (born June 10, 1972), known as Sundar Pichai, is an Indian-American business executive. He is the chief executive officer (CEO) of Alphabet Inc. and its subsidiary Google LLC.
+
+                    Born in Madurai, India, Pichai earned his degree from the Indian Institute of Technology Kharagpur in metallurgical engineering. Moving to the United States, he attained an M.S. from Stanford University in materials science and engineering and further attained an MBA from the Wharton School of the University of Pennsylvania, where he was named a Siebel Scholar and a Palmer Scholar, respectively.
+                    <br>
+                    <a href="https://en.wikipedia.org/wiki/Sundar_Pichai" target="_blank"><b>To Know More</b></a>
+                    </p>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div id="footer"></div>
+        
+        
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" id="alumilist" data-toggle="modal" data-target="#school_alumni4">
+        <img src="anuradha-sriram.PNG" class="img-responsive img_modal">
+            <hr>
+            <p class="text-primary">Anuradha Sriram</p>
+        </div>
+        <div class="modal fade" id="school_alumni4">
+        <div class="modal-dialog">
+            <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Anuradha Sriram</h4>
+                </div>
+                
+                
+                <div class="modal-body">
+                <img src="anuradha-sriram.PNG" class="img-responsive img_modal">
+                    <p class="p_modal">Anuradha Sriram (born 9 July 1970) is an Indian carnatic and playback singer who hails from the Indian state of Tamil Nadu. She has sung more than 2,000 songs in Tamil, Telugu, Malayalam, Kannada and Hindi films.
+                    Anuradha was born in Chennai to playback singer Renuka Devi and Meenakshi Sundaram Mohan. She did her schooling (I and II standards) in Coimbatore at the St. Francis Anglo-Indian Girls School, and later at the Padma Seshadri Bala Bhavan, Chennai. She has a B.A and M.A in music from Queen Mary's College in Madras University and secured the university gold medal in both the courses. She was given a fellowship to do her Master of Arts degree in Ethnomusicology from Wesleyan University, Connecticut, US.
+                    <br>
+                    <a href="https://en.wikipedia.org/wiki/Anuradha_Sriram" target="_blank"><b>To Know More</b></a>
+                    </p>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div id="footer"></div>
+    </section>
+    <br>
+    <h3>Contact Us</h3>
+    <span><input onclick="show5()" id="show5" type="button" value="Show/Hide"></span>
+    <section id="contact">
+        <div class="container">
+            <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <h2 class="text-capitalize">
+                    Contact us
+                </h2>
+            </div>
+
+
+            <div id="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d731.9634408529978!2d80.19970308348346!3d12.824071966957598!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525a1759fd8503%3A0xeda2390752f96b11!2sPSBB%20School!5e1!3m2!1sen!2sin!4v1601620476180!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+            <div id="details">
+
+
+                <img src="xavier.PNG" class="img-responsive img-circle col-lg-3 col-md-3 col-sm-3 col-xs-4">
+                <h3>
+                    Principal Name:
+                </h3>
+                <h4>
+                    Mrs. Vijayalakshmi Raman
+                </h4>
+                <div class="contact_1">
+                <a href="mailto:support.psbbschool@gmail.com?subject=hello">
+                    <h5>
+                        <i class="fa fa-envelope"></i>&nbsp; &nbsp; support.psbbschools@gmail.com
+                    </h5>
+                </a>
+            </div>
+            </div>
+        </div>
+    </section>
+    </section>
+    <h1 id="ita">For more information, visit the official website <a href="https://www.psbbschools.ac.in" target="_blank">here</a> or view it below:</h1>
+    <br>
+    <iframe src="http://www.psbbschools.ac.in/" height="500" width="100%"></iframe>
+</body></html>

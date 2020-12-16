@@ -1,0 +1,104 @@
+body{
+    text-align:center;
+}
+.my_nav_bar{
+    position:sticky;
+    top:0;
+    z-index:9999;
+}
+#marqueeStyle{
+    background-color: aquamarine;
+}
+#map{
+    text-align: center;
+}
+.row::after{
+    content: "";
+    clear:both;
+    display:table;
+}
+.travel_mainDiv{
+    float:left;
+    width:33.33%;
+    padding:5px;
+    border:1px solid #c7c7c7;
+}
+.travel_mainDiv img{
+    width:100%;
+    height:300px;
+}
+.travel_mainDiv hr{
+    width:100%;
+}
+.travel_mainDiv h5, .travel_mainDiv p{
+    margin-left: 20px;
+}
+#achievmentsID{
+    padding-bottom:10px;
+}
+.movie_head{
+    font-size:20px;
+    padding:6px 22px;
+    border-radius:10px;
+    margin-bottom:15px;
+    width:100%;
+    display:inline-block;
+}
+.movie_head i{
+    float:right;
+}
+.environment_li{
+    margin-top: 13px;
+}
+.environment_li h4{
+    border-bottom: 1px solid white;
+    padding:8px;
+}
+.environment_li img{
+    border-radius: 25px;
+}
+.environment_li p{
+    margin-top: 10px;
+}
+.book{
+    cursor: pointer;
+}
+#footer{
+    height:20px;
+    background-color: white
+}
+.modal-content{
+    margin-top: 100px;
+}
+.img_modal{
+    display: inline-block;
+}
+#campus{
+    display: none;
+}
+#achievment{
+    display: none;
+}
+#new{
+    display: none;
+}
+#alumni{
+    display: none;
+}
+#home{
+    display: none;
+}
+#right{
+    text-align:left;
+    margin-left: 20px;
+}
+#left{
+    text-align: right;
+    margin-right: 20px;
+}
+#banner{
+    text-align: center;
+}
+#ita{
+    font-family: 'Fruktur', cursive;
+}
