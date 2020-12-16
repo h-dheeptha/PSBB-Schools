@@ -102,3 +102,6 @@ body{
 #ita{
     font-family: 'Fruktur', cursive;
 }
+#contact{
+    display: none;
+}

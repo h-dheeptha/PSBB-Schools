@@ -30,6 +30,14 @@ function show4() {
     x.style.display = "none";
   }
 }
+function show5() {
+  var x = document.getElementById("contact");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
 function show0() {
   var x = document.getElementById("home");
   if (x.style.display === "none") {
